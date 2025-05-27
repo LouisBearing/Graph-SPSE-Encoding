@@ -11,7 +11,7 @@ For low-density/short path lengths, exact path counting methods exist (check Net
 
 ### What it contains
 
-This repository contains the implementation of a proposed DFS/BFS-based approximate counting algorithm.
+This repository contains the implementation of a proposed DFS/BFS-based approximate path counting algorithm.
 
 ``count_self_avoiding_paths.py`` contains the function ``get_simple_paths_count`` which counts simple paths given the edge index matrix of a `PyTorch Geometric` input graph.
 
