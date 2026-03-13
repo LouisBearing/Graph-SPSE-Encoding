@@ -16,3 +16,17 @@ This repository contains the implementation of a proposed DFS/BFS-based approxim
 ``count_self_avoiding_paths.py`` contains the function ``get_simple_paths_count`` which counts simple paths given the edge index matrix of a `PyTorch Geometric` input graph.
 
 The second file, ``precompute_spse.py``, describes the overall path counting process for standard PyG databases. It notably involves storing the path counts into several, smaller size files.
+
+
+## Citation
+
+```
+@inproceedings{airale2025simple,
+  title={Simple Path Structural Encoding for Graph Transformers},
+  author={Airale, Louis and Longa, Antonio and Rigon, Mattia and Passerini, Andrea and Passerone, Roberto},
+  booktitle={International Conference on Machine Learning},
+  pages={857--873},
+  year={2025},
+  organization={PMLR}
+}
+```
